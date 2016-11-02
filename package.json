@@ -33,14 +33,13 @@
   },
   "dependencies": {
     "metal-anim": "^2.0.0",
-    "metal-dom": "^2.2.3",
-    "metal-jsx": "^2.2.5"
+    "metal-dom": "^2.5.1",
+    "metal-jsx": "^2.5.1"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
-    "babel-preset-metal": "^4.0.1",
+    "babel-preset-metal-jsx": "^0.0.3",
     "gulp": "^3.9.1",
-    "gulp-metal": "^1.7.5",
-    "metal": "^2.2.3"
+    "gulp-metal": "^1.9.10"
   }
 }
