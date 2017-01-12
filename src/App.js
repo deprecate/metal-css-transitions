@@ -1,8 +1,7 @@
 'use strict';
 
 import Component, {Config} from 'metal-jsx';
-
-import Transition from '../src/TransitionWrapper';
+import Transition from 'metal-css-transitions';
 
 class App extends Component {
 	created() {
@@ -25,7 +24,7 @@ class App extends Component {
 	render() {
 		return (
 			<span>
-				<button onClick={this.onClick_}>ClickMe</button>
+				<button onClick={this.onClick_}>{'Click Me'}</button>
 
 				<Transition name="test">
 					{

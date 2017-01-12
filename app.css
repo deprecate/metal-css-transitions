@@ -1,0 +1,45 @@
+.test-appear {
+	opacity: 0;
+}
+
+.test-appear.test-appear-active {
+	transition: opacity 1000ms;
+	opacity: 1;
+}
+
+.test-enter {
+	opacity: 0;
+}
+
+.test-enter.test-enter-active {
+	transition: opacity 1000ms;
+	opacity: 1;
+}
+
+.test-leave {
+	opacity: 1;
+}
+
+.test-leave.test-leave-active {
+	transition: opacity 1000ms;
+	opacity: 0;
+}
+
+.child {
+	border: 1px solid;
+	background: green;
+	margin: 4px 0;
+	padding: 24px;
+	text-align: center;
+	width: 100px;
+}
+
+button {
+	background: white;
+	border-radius: 4px;
+	border: 1px solid black;
+	color: black;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 12px;
+}
